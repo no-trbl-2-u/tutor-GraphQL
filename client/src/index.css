@@ -1,0 +1,18 @@
+body{
+  background: linear-gradient(0.25turn, #8326c2, #ebf8e1, #6180e4);
+  text-align: center;
+}
+
+.App-header{
+  color: white;
+  background-color: rgba(6, 8, 134, 0.2);
+  box-shadow: 8px 8px 8px black, -4px -4px 8px black;
+  padding: 1vh;
+
+  width: 30%;
+  margin: auto;
+  border-radius: 100px;
+
+  font-size: 8vh;
+  text-shadow: 2px 2px 8px black;
+}
