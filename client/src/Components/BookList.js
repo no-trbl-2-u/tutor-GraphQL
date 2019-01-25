@@ -6,20 +6,16 @@ const getBooksQuery = gql`
   {
     books {
       name
-      author {
-        name
-      }
     }
-  }
 `
 
 const BookList = props => {
-  const { books } = this.props.data
+  const { books, loading } = props.data
 
   return (
     <ul className="BookList">
       {
-        this.props.data.loading 
+        loading 
         ? <li>Loading</li>
         : books.map(
           (ea, index) =>
